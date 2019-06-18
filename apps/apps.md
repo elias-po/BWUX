@@ -9,7 +9,7 @@ It contains:
 * [EarTrumpet](https://github.com/File-New-Project/EarTrumpet)
 * [Wox Launcher](http://www.wox.one/)
 
-<br/><br/>
+<br/>
 #### AutoHotkey
 A powerful scripting language that allows to create custom shortcuts.<br/>
 An example of macOS inspired shortcuts is [here](../ahk/main.ahk)
