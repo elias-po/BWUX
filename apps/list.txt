@@ -1,0 +1,4 @@
+﻿autohotkey:AutoHotkey
+quicklook:QuickLook
+WindowsStore:EarTrumpet
+wox:Wox
