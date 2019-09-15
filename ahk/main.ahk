@@ -111,7 +111,7 @@ return
 	Send {WheelUp}{WheelUp}{WheelUp}{WheelUp}
 return
 
-; Always on top for the current windows
+; Always on top for the current window
 ^SPACE::  Winset, Alwaysontop, , A
 
 ; Reverts the scrolling wheel
