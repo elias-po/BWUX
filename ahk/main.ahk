@@ -1,4 +1,4 @@
-﻿
+
 ;#InstallKeybdHook
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 #MaxHotkeysPerInterval 2000 ; To prevent warning from popping up when scrolling with mac touchpad
@@ -16,8 +16,8 @@ MouseIsOver(WinTitle) {
 ; Mouse over taskbar actions
 #If MouseIsOver("ahk_class Shell_TrayWnd")
 	; Wheel down/up over taskbar => increase/decrease volume.
-	WheelDown::Send {Volume_Up}     
-	WheelUp::Send {Volume_Down} ;
+	WheelDown::Send {Volume_Down}     
+	WheelUp::Send {Volume_Up} ;
 	; Wheel click on taskbar => play/pause media
     MButton::Send {Media_Play_Pause}
 #If ; Closing the #If statement
@@ -110,7 +110,6 @@ return
 !WheelUp::
 	Send {WheelUp}{WheelUp}{WheelUp}{WheelUp}
 return
-
 
 ; Reverts the scrolling wheel
 ; Caveat: won't work in administrative apps
