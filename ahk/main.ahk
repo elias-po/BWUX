@@ -111,6 +111,9 @@ return
 	Send {WheelUp}{WheelUp}{WheelUp}{WheelUp}
 return
 
+; Always on top for the current windows
+^SPACE::  Winset, Alwaysontop, , A
+
 ; Reverts the scrolling wheel
 ; Caveat: won't work in administrative apps
 ; Alternative: set FlipFlopWheel to 1 in the registry
